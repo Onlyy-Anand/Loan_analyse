@@ -7,7 +7,7 @@ This repository contains a supervised machine learning pipeline designed to pred
 In financial lending, accurately predicting loan defaults is critical. This project focuses on building a robust classification model that handles missing data, scales numerical features, and specifically addresses the class imbalance between approved and rejected loans.
 
 ## Repository Contents
-* `loan_prediction.ipynb`: The main Colab Notebook containing the end-to-end data pipeline, exploratory analysis, and model training.
+* `loan.ipynb`: The main Colab Notebook containing the end-to-end data pipeline, exploratory analysis, and model training.
 * `loan_prediction.csv`: The dataset used for training and testing.
 ## Methodology
 1. **Preprocessing:** 
@@ -28,4 +28,4 @@ The model successfully reduces the approval of bad loans by 31% compared to a ba
 ## How to Run
 1. Clone this repository.
 2. Install the required dependencies: `pip install pandas numpy scikit-learn`
-3. Open and run `loan_prediction.ipynb` in Google Colab.
+3. Open and run `loan.ipynb` in Google Colab.
